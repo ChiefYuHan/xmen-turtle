@@ -11,7 +11,7 @@ repository = "https://github.com/hpi-dhc/xmen"
 xmen = "xmen.cli.cli:main"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<=3.11" # Issues with nmslib and FAISS for Python >= 3.11
+python = ">=3.8,<3.12" # Issues with nmslib and FAISS for Python >= 3.11
 nmslib = {git = "https://github.com/hpi-bp-public-health-communication/nmslib-fixed", subdirectory = "python_bindings"}
 datasets = "^2.0.0"
 lxml = "^4.8.0"
