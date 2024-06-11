@@ -27,8 +27,7 @@ rich = "^12.3.0"
 torch = ">=1.13.0,!=2.0.1, !=2.1.0" # Some version don't seem to be compatible with Poetry
 scispacy = "^0.5.2"
 sentence-transformers = "^2.2.2"
-faiss-gpu = {version = "^1.7.1", markers = 'sys_platform == "linux"'}
-faiss-cpu = {version = "^1.7.1", markers = 'sys_platform != "linux"'}
+faiss-cpu = "^1.7.1"
 orjson = "^3.9.1"
 
 [tool.poetry.dev-dependencies]
